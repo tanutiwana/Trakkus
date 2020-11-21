@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/friendsdrawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:orientation="vertical"
+    android:padding="5sp"
+    tools:context=".FriendNotificationActivity"
+    tools:openDrawer="start">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@drawable/shape"
+        android:splitMotionEvents="true"
+        android:theme="@style/AppTheme"
+        app:headerLayout="@layout/menu_header"
+        app:itemIconTint="#2904FB"
+        app:itemTextColor="#02115E"
+        app:menu="@menu/drawer_menu" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/NoActionBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/image"
+                android:theme="@style/NoActionBar"
+                app:menu="@menu/top_navigation"
+                app:navigationIcon="@drawable/ic_nav_drawer"
+                app:title="Navigation Drawer">
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10sp"
+                android:orientation="vertical">
+
+                <com.mancj.materialsearchbar.MaterialSearchBar
+
+                    android:id="@+id/m_search_bar"
+                    style="@style/MaterialSearchBarLight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:elevation="10sp"
+                    android:padding="5sp"
+                    app:mt_hint="Enter the email"
+                    app:mt_hintColor="#DA0303"
+                    app:mt_maxSuggestionsCount="5">
+
+                </com.mancj.materialsearchbar.MaterialSearchBar>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_all_people"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10sp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+            </LinearLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent"
+            app:itemBackground="@color/white"
+            app:itemIconTint="@android:color/black"
+            app:menu="@menu/bottom_nav_menu" />
+
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    card_view:cardCornerRadius="10sp"
+    card_view:cardElevation="5sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_margin="5sp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/recycler_friend_image"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/account" />
+
+
+            <TextView
+                android:id="@+id/txt_friend_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="5sp"
+                android:text="@string/my_email_add"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/cancel_friend_request"
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:src="@drawable/ic_cancel"
+                android:text="Decline"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/accept_friend_request"
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:src="@drawable/ic_add_member"
+
+                android:text="Accept"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/GeoFencing"
+            android:icon="@drawable/ic_my_location_black_24dp"
+            android:iconTint="#031CFD"
+            android:title="@string/geofencing" />
+        <item
+            android:id="@+id/friends"
+            android:icon="@drawable/ic_group"
+            android:iconTint="#031CFD"
+            android:title="@string/all_user" />
+        <item
+            android:id="@+id/call"
+            android:icon="@drawable/ic_sos_call"
+            android:iconTint="#031CFD"
+            android:title="@string/sos_contacts" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help"
+            android:iconTint="#031CFD"
+            android:title="@string/help" />
+        <item
+
+            android:id="@+id/shareLocation"
+            android:icon="@drawable/ic_share"
+            android:iconTint="#031CFD"
+            android:title="@string/s" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:iconTint="#031CFD"
+            android:title="@string/settings" />
+
+
+        <item
+
+            android:id="@+id/LogOut"
+            android:icon="@drawable/ic_logout"
+            android:iconTint="#031CFD"
+            android:title="@string/log_out" />
+
+
+    </group>
+
+
+</menu>

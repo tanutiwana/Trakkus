@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="3sp"
+    android:background="#72D6ECD3"
+    android:orientation="vertical"
+    tools:context=".ContactActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                app:cardCornerRadius="5sp"
+                app:cardElevation="5sp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="10sp">
+
+                    <ImageView
+                        android:id="@+id/contact1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10sp"
+                        android:src="@drawable/ic_ambulance"
+                        android:tint="#0C0C0B" />
+
+
+                    <TextView
+                        android:id="@+id/contact1_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact1"
+                        android:text="Ambulance"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/contact1_txt"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact1"
+                        android:text="No: 102"
+                        android:textColor="@android:color/black"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/contact1_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:onClick="btn_contact1" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                app:cardCornerRadius="5sp"
+                app:cardElevation="5sp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="10sp">
+
+                    <ImageView
+                        android:id="@+id/contact2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10sp"
+                        android:src="@drawable/nationalhelpline" />
+
+
+                    <TextView
+                        android:id="@+id/contact2_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact2"
+                        android:text="National Help No."
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/contact2_txt"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact2"
+                        android:text="No: 112"
+                        android:textColor="@android:color/black"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/contact2_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:onClick="btn_contact2" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                app:cardCornerRadius="5sp"
+                app:cardElevation="5sp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="10sp">
+
+                    <ImageView
+                        android:id="@+id/contact3"
+                        android:layout_width="90sp"
+                        android:layout_height="90sp"
+                        android:layout_margin="10sp"
+                        android:src="@drawable/fire" />
+
+
+                    <TextView
+                        android:id="@+id/contact3_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact3"
+                        android:text="Fire"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/contact3_txt"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact3"
+                        android:text="No: 101"
+                        android:textColor="@android:color/black"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/contact3_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:onClick="btn_contact3" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                app:cardCornerRadius="5sp"
+                app:cardElevation="5sp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="10sp">
+
+                    <ImageView
+                        android:id="@+id/contact4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10sp"
+                        android:src="@drawable/child"
+                        android:tint="@android:color/black" />
+
+
+                    <TextView
+                        android:id="@+id/contact4_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact4"
+                        android:text="Child HelpLine"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/contact4_txt"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact4"
+                        android:text="No: 1098"
+                        android:textColor="@android:color/black"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/contact4_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:onClick="btn_contact4" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                app:cardCornerRadius="5sp"
+                app:cardElevation="5sp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="10sp">
+
+                    <ImageView
+                        android:id="@+id/contact5"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10sp"
+                        android:src="@drawable/women" />
+
+
+                    <TextView
+                        android:id="@+id/contact5_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact5"
+                        android:text="Women HelpLine \n(Domestic abuse)"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/contact5_txt"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact5"
+                        android:text="No: 1091"
+                        android:textColor="@android:color/black"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/contact5_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:onClick="btn_contact5" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                app:cardCornerRadius="5sp"
+                app:cardElevation="5sp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="10sp">
+
+                    <ImageView
+                        android:id="@+id/contact6"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10sp"
+                        android:src="@drawable/police" />
+
+
+                    <TextView
+                        android:id="@+id/contact6_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact6"
+                        android:text="Police"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/contact6_txt"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact6"
+                        android:text="No: 100"
+                        android:textColor="@android:color/black"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/contact6_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:onClick="btn_contact6" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                app:cardCornerRadius="5sp"
+                app:cardElevation="5sp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="10sp">
+
+                    <ImageView
+                        android:id="@+id/contact7"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10sp"
+                        android:src="@drawable/ic_person_pin" />
+
+
+                    <TextView
+                        android:id="@+id/contact7_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact7"
+                        android:text="Tourist Helpline"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/contact7_txt"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact7"
+                        android:text="No: 1363"
+                        android:textColor="@android:color/black"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/contact7_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:onClick="btn_contact7" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                app:cardCornerRadius="5sp"
+                app:cardElevation="5sp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="10sp">
+
+                    <ImageView
+                        android:id="@+id/contact8"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10sp"
+                        android:src="@drawable/ic_railway"
+                        android:tint="@android:color/black"/>
+
+
+                    <TextView
+                        android:id="@+id/contact8_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact8"
+                        android:text="Railway Enquiry"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/contact8_txt"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/contact8"
+                        android:text="No: 139"
+                        android:textColor="@android:color/black"
+                        android:textSize="30sp"
+                        />
+
+                    <Button
+                        android:id="@+id/contact8_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:onClick="btn_contact8" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

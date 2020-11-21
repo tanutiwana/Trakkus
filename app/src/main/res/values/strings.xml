@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TRAKKUS</string>
+
+    //navigation slidebar
+    <string name="settings">Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="help">Help</string>
+    <string name="sos_contacts">SOS Contacts</string>
+    <string name="home">Home</string>
+    <string name="open_navigation_drawer">Open_Navigation</string>
+    <string name="close_navigation_drawer">Close Navigation</string>
+    <string name="my_email_add">My Email-add</string>
+
+    <string name="thanks_for_using_trakkus">Thanks for using Trakkus</string>
+    <string name="login_again">Login Again</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="welcome_to_trakkus">Welcome to Trakkus.</string>
+    <string name="my_friends">My_Friends</string>
+    <string name="notification">Notification</string>
+    <string name="username">UserName</string>
+    <string name="title_activity_tracking">Map</string>
+    <string name="s">Share</string>
+    <string name="all_user">All User</string>
+    <string name="your_friend_list_is_empty_please_add_new_friends">Your friend list is empty, please add new friends</string>
+    <string name="click">Click the user to locate</string>
+    <string name="current_location">Current_location</string>
+    <string name="know_your_current_location">Know your current Location</string>
+    <string name="find_new_friens">Find new Friens</string>
+    <string name="view_your_friend_list">View your friend list</string>
+    <string name="title_activity_geo_fencing">Map</string>
+    <string name="geofencing">GeoFencing</string>
+
+    //bottom navigation
+
+</resources>

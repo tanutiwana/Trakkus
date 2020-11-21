@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "987257759712",
+    "firebase_url": "https://trakkus-49aaf.firebaseio.com",
+    "project_id": "trakkus-49aaf",
+    "storage_bucket": "trakkus-49aaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987257759712:android:2dcb068b8768d13b65ed85",
+        "android_client_info": {
+          "package_name": "com.example.trakkus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987257759712-t6pevu6erautmvbof9185b12us7pdin5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trakkus",
+            "certificate_hash": "9c52859d7c26f22876d0a44172eb15021b038bfd"
+          }
+        },
+        {
+          "client_id": "987257759712-f7qkv6i1fdepa6rt4gbu1h5s1frgsf9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXidj5nmVfQlu511H0vyUpn6ekFikHbC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987257759712-f7qkv6i1fdepa6rt4gbu1h5s1frgsf9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
