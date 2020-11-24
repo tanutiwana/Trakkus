@@ -31,7 +31,7 @@ public class Commonx {
                 .create(IFCMService.class);
     }
 
-    //class for get Aurrent time.
+    //class for get Current time.
     public static Date convertTimeStampintoDate(long time) {
         return new Date(new Timestamp(time).getTime());
     }
