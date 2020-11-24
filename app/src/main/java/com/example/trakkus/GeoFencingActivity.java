@@ -159,7 +159,7 @@ public class GeoFencingActivity extends FragmentActivity implements OnMapReadyCa
         mMap.addMarker(markerOptions);
 
     }
-
+// This code little incomplete geo fence show the area but did not show user on map and i took help with that but didnot work quite well
     public void addCircle(LatLng latLng, Float radius) {
         CircleOptions circleOptions = new CircleOptions();
         circleOptions.center(latLng);
