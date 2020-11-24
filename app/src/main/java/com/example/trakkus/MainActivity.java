@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity {
             showMsgBar(netInfo != null && netInfo.isConnected());
         }
     }
-
+// Took help from a friend with this code below
     private void showMsgBar(boolean isConnected) {
 
         if (isConnected) {
