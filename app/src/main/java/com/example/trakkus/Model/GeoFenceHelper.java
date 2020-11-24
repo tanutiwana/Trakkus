@@ -1,3 +1,4 @@
+//Amritpal Singh
 package com.example.trakkus.Model;
 
 import android.app.PendingIntent;
