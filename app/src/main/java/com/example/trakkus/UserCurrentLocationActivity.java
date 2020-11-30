@@ -1,4 +1,4 @@
-//shubhpreet singh
+//shubhpreet singh and tookfriend's help
 package com.example.trakkus;
 
 import android.Manifest;
