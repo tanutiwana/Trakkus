@@ -1,4 +1,5 @@
 //shubhpreet singh
+//Amritpal Singh
 package com.example.trakkus.Model;
 
 public class MyLocation {
