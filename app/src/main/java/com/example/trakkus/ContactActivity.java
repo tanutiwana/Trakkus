@@ -16,7 +16,7 @@ import android.widget.Toast;
 public class ContactActivity extends AppCompatActivity {
 
     ///veriables
-    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8;
+    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,7 @@ public class ContactActivity extends AppCompatActivity {
         btn6 = findViewById(R.id.contact6_btn);
         btn7 = findViewById(R.id.contact7_btn);
         btn8 = findViewById(R.id.contact8_btn);
+        btn9 = findViewById(R.id.contact9_btn);
 
     }
 
@@ -159,7 +160,7 @@ public class ContactActivity extends AppCompatActivity {
 
     }
      //9th button
-    public void btn_contact8(View view) {
+    public void btn_contact9(View view) {
 
         Intent callIntent = new Intent(Intent.ACTION_CALL);
         callIntent.setData(Uri.parse("tel:911"));
