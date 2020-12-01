@@ -158,4 +158,19 @@ public class ContactActivity extends AppCompatActivity {
         startActivity(callIntent);
 
     }
+     //9th button
+    public void btn_contact8(View view) {
+
+        Intent callIntent = new Intent(Intent.ACTION_CALL);
+        callIntent.setData(Uri.parse("tel:911"));
+
+        if (ActivityCompat.checkSelfPermission(ContactActivity.this,
+                Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+            Toast.makeText(ContactActivity.this, "Canada's emergency", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        startActivity(callIntent);
+
+    }
 }
