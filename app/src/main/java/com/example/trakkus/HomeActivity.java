@@ -1,6 +1,6 @@
 //Amritpal Singh
 //Shubhpreet Uppal
-//Parul
+
 package com.example.trakkus;
 
 import android.Manifest;
