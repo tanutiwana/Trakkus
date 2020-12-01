@@ -29,7 +29,9 @@ public class AllFriendsViewHolder extends RecyclerView.ViewHolder implements Vie
         all_friends_profile_image = (CircleImageView) itemView.findViewById(R.id.all_friends_profile_image);
 
         all_friends_txt_user_email = (TextView) itemView.findViewById(R.id.all_friends_txt_user_email);
-        // Delete_User = itemView.findViewById(R.id.delete_user);
+        
+        Delete_User = itemView.findViewById(R.id.delete_user);
+        
         itemView.setOnClickListener(this);
     }
 
