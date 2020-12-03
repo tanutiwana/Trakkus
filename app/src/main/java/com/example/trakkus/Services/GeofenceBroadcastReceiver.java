@@ -36,7 +36,7 @@ public class GeofenceBroadcastReceiver extends BroadcastReceiver {
         List<Geofence> geofenceList = geofencingEvent.getTriggeringGeofences();
 
         for (Geofence geofence : geofenceList) {
-            Log.d(TAG, "onReceive:" + geofence.getRequestId());
+            Log.d(TAG, msg:"onReceive:" + geofence.getRequestId());
         }
         // Location location = geofencingEvent.getTriggeringLocation();
 
