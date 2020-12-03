@@ -25,6 +25,7 @@ public class GeofenceBroadcastReceiver extends BroadcastReceiver {
         // an Intent broadcast.
        // Toast.makeText(context, "Geofence Triggered...", Toast.LENGTH_SHORT).show();
 
+        NotificationHelper notificationHelper = new NotificationHelper(context);
         GeofencingEvent geofencingEvent = GeofencingEvent.fromIntent(intent);
 
         if (geofencingEvent.hasError()) {
