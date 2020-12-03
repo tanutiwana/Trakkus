@@ -34,6 +34,7 @@ public class GeoFencingActivity extends FragmentActivity implements OnMapReadyCa
 
     private static final String TAG = "GeoFencingActivity";
     private int FINE_LOCATION_ACCESS_REQUEST_CODE = 10001;
+    private int BACKGROUND_LOCATION_ACCESS_REQUEST_CODE = 10002;
     private GoogleMap mMap;
     private GeofencingClient geofencingClient;
     private float GEOFENCE_RADIUS = 200;
@@ -47,11 +48,11 @@ public class GeoFencingActivity extends FragmentActivity implements OnMapReadyCa
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
+        mapFragment.getMapAsync(onMapReadyCallback: this);
 
         //Initilize geofencing client
-        geofencingClient = LocationServices.getGeofencingClient(this);
-        geoFenceHelper = new GeoFenceHelper(this);
+        geofencingClient = LocationServices.getGeofencingClient(activity: this);
+        geoFenceHelper = new GeoFenceHelper(base: this);
     }
 
 
